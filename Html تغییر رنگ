@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS</title>
+<style>
+.box{
+  background-color: pink;
+  width: 300px;
+  height:200px;
+  margin: auto;
+  front-size: 40px;
+  text-align: center;
+  }
+  .box:hover{
+      background-color: cyan;
+  }
+  h1, h2{
+      color: black;
+      text-align: center;
+  }
+  </style>
+  </head>
+  
+  <body>
+      <h1>simplilern</h1>
+      <h2>:hover pseuo-class</h2>
+      <div class="box">
+          my color change if you hover over me!
+      </div>
+ </body>
+ </html>
